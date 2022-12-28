@@ -64,3 +64,82 @@
 .sidebar{
     font-size: large;
 }
+/* .header-student{
+        min-height: 100vh;
+        width: 100%;
+        background-position:center;
+        background-size: cover;
+        position:relative;
+} */
+.navbar.navbar-dark.bg-primary a{
+    color:white;
+}
+/*for the index.html file*/
+@media screen and (max-width:500px){
+    .header{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+    }
+    .text{
+        align-items: center;
+        justify-content: center;
+        padding-left: 10%;
+        padding-top: 50%;
+    }
+    .text h1{
+        font-size: 30px;
+    }
+    .text p{
+        font-size: 15px;
+        color: grey;
+        text-align: left;
+    }
+}
+@media screen and (max-width: 1120px) {
+    /* start of large tablet styles */
+    .header{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+    }
+    .text{
+        align-items: center;
+        justify-content: center;
+        padding-left: 10%;
+        padding-top: 50%;
+    }
+    .text h1{
+        font-size: 30px;
+    }
+    .text p{
+        font-size: 15px;
+        color: grey;
+        text-align: left;
+    }
+    
+    }
+    
+    @media screen and (max-width: 767px) {
+    /* start of medium tablet styles */
+    .header{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+    }
+    .text{
+        align-items: center;
+        justify-content: center;
+        padding-left: 10%;
+        padding-top: 50%;
+    }
+    .text h1{
+        font-size: 30px;
+    }
+    .text p{
+        font-size: 15px;
+        color: grey;
+        text-align: left;
+    }
+    
+    }
